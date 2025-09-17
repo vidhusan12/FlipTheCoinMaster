@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #404a65;
+  color: #ecedf0;
+}
+
+.author-info {
+  margin-top: auto;
+  padding: 1rem 0;
+  font-family: "Kanit";
+  background-color: #35383f;
+  width: 100%;
+  text-align: center;
+}
+
+.author-info a {
+  text-decoration: none;
+  color: #ecedf0;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flip-btn {
+  font-family: "Kanit";
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #1f6fb0;
+  color: #ecedf0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #1f6fb0;
+  box-shadow: 0px 4px 0px 0px #23649b;
+  width: 30%;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "Kanit";
+  font-size: 64px;
+  font-weight: 600;
+  text-shadow: 2px 2px 0px #35383f;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #35383f;
+}
+
+h3 {
+  font-family: "Kanit";
+  font-size: 24px;
+  font-weight: 600;
+}
